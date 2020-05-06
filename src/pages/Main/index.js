@@ -17,7 +17,7 @@ moment.locale('pt-br');
 
 function Main() {
     const [inputState, setInputState] = useState({
-        "n-acoes": "",
+        "n-acoes": 100,
         "d-inicio": stockData[stockData.length - 1]["pd"],
         "d-fim": stockData[0]["pd"],
     })
@@ -42,6 +42,16 @@ function Main() {
         }))
     }
 
+    function addDateMask(value) {
+        const v = value.replace(/\D/g,'').slice(0, 10);
+        if (v.length >= 5) {
+          return `${v.slice(0,2)}/${v.slice(2,4)}/${v.slice(4)}`;
+        } else if (v.length >= 3) {
+          return `${v.slice(0,2)}/${v.slice(2)}`;
+        }
+        return v 
+    }
+
     const result = inputState["n-acoes"] * calculateResult()
     
     return (
@@ -61,14 +71,18 @@ function Main() {
                     name="d-inicio"
                     placeholder="01/02/2016"
                     value={inputState["d-inicio"]}
-                    onChange={event => handleInputState({ value: event.target.value, name: "d-inicio" })}
+                    maxLength="10"
+                    minLength="10"
+                    onChange={event => handleInputState({ value: addDateMask(event.target.value), name: "d-inicio" })}
                 />
                 <Label>Fim</Label>
                 <Input
                     type="input"
                     name="d-fim"
+                    maxLength="10"
+                    minLength="10"
                     placeholder="01/02/2020"
-                    value={inputState["d-fim"]}
+                    value={addDateMask(inputState["d-fim"])}
                     onChange={event => handleInputState({ value: event.target.value, name: "d-fim" })}
                 />
             </Form>
