@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ronaiza-cardoso/dividents/static/css/main.70334752.chunk.css",
-    "main.js": "/ronaiza-cardoso/dividents/static/js/main.8dbaed29.chunk.js",
-    "main.js.map": "/ronaiza-cardoso/dividents/static/js/main.8dbaed29.chunk.js.map",
-    "runtime-main.js": "/ronaiza-cardoso/dividents/static/js/runtime-main.72a23d1b.js",
-    "runtime-main.js.map": "/ronaiza-cardoso/dividents/static/js/runtime-main.72a23d1b.js.map",
-    "static/js/2.c79d740b.chunk.js": "/ronaiza-cardoso/dividents/static/js/2.c79d740b.chunk.js",
-    "static/js/2.c79d740b.chunk.js.map": "/ronaiza-cardoso/dividents/static/js/2.c79d740b.chunk.js.map",
-    "index.html": "/ronaiza-cardoso/dividents/index.html",
-    "precache-manifest.106375c3488a2aba1b49432a81951959.js": "/ronaiza-cardoso/dividents/precache-manifest.106375c3488a2aba1b49432a81951959.js",
-    "service-worker.js": "/ronaiza-cardoso/dividents/service-worker.js",
-    "static/css/main.70334752.chunk.css.map": "/ronaiza-cardoso/dividents/static/css/main.70334752.chunk.css.map",
-    "static/js/2.c79d740b.chunk.js.LICENSE.txt": "/ronaiza-cardoso/dividents/static/js/2.c79d740b.chunk.js.LICENSE.txt"
+    "main.css": "/dividents/static/css/main.70334752.chunk.css",
+    "main.js": "/dividents/static/js/main.90ec34e1.chunk.js",
+    "main.js.map": "/dividents/static/js/main.90ec34e1.chunk.js.map",
+    "runtime-main.js": "/dividents/static/js/runtime-main.cde1b404.js",
+    "runtime-main.js.map": "/dividents/static/js/runtime-main.cde1b404.js.map",
+    "static/js/2.39ae329f.chunk.js": "/dividents/static/js/2.39ae329f.chunk.js",
+    "static/js/2.39ae329f.chunk.js.map": "/dividents/static/js/2.39ae329f.chunk.js.map",
+    "index.html": "/dividents/index.html",
+    "precache-manifest.337063f610e79873e64f43e35183132b.js": "/dividents/precache-manifest.337063f610e79873e64f43e35183132b.js",
+    "service-worker.js": "/dividents/service-worker.js",
+    "static/css/main.70334752.chunk.css.map": "/dividents/static/css/main.70334752.chunk.css.map",
+    "static/js/2.39ae329f.chunk.js.LICENSE.txt": "/dividents/static/js/2.39ae329f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.72a23d1b.js",
-    "static/js/2.c79d740b.chunk.js",
+    "static/js/runtime-main.cde1b404.js",
+    "static/js/2.39ae329f.chunk.js",
     "static/css/main.70334752.chunk.css",
-    "static/js/main.8dbaed29.chunk.js"
+    "static/js/main.90ec34e1.chunk.js"
   ]
 }
