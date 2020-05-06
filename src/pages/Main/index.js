@@ -11,6 +11,8 @@ import {
     Input,
     ResultContainer,
     Result,
+    TikerContainer,
+    Ticker,
 } from './style'
 
 moment.locale('pt-br');
@@ -56,6 +58,10 @@ function Main() {
     
     return (
         <Container>
+            <TikerContainer>
+                <Ticker value="BCFF11"/>
+            </TikerContainer>
+
             <Form>
                 <Label>N. de Ações</Label>
                 <Input
